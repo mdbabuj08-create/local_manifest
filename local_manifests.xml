@@ -6,15 +6,16 @@
     <remote name="swiitch-OFF-Lab" fetch="https://github.com/swiitch-OFF-Lab" clone-depth="1" />
     <remote name="THE-EGO-999-GL" fetch="https://gitlab.com/THE-EGO-999-GL" clone-depth="1" />
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
-
+    <remote name="mdbabuj08-create" fetch="https://github.com/mdbabuj08-create" clone-depth="1" />
+    
     <!-- Device -->
-    <project path="device/xiaomi/haydn" name="device_xiaomi_haydn" remote="THE-EGO-999-GT" revision="inf" />
+    <project path="device/xiaomi/haydn" name="device_xiaomi_haydn" remote="mdbabuj08-create" revision="test" />
 
     <!-- Device - Common -->
-    <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="THE-EGO-999-GT" revision="inf" />
+    <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="mdbabuj08-create" revision="test" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm8350" name="kernel_xiaomi_haydn" remote="THE-EGO-999-GT" revision="lineage-23.2-KSU" />
+    <project path="kernel/xiaomi/sm8350" name="k" remote="mdbabuj08-create" revision="Kernel_KSU" />
     
     <!-- Vendor -->
     <project path="vendor/xiaomi/haydn" name="vendor_xiaomi_haydn" remote="THE-EGO-999-GT" revision="lineage-23.2" />
